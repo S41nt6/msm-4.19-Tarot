@@ -170,7 +170,7 @@ EXPORT_SYMBOL(jiffies_64);
 #define LVL_OFFS(n)	((n) * LVL_SIZE)
 
 /* Level depth */
-#if HZ > 100
+#if HZ > 300
 # define LVL_DEPTH	9
 # else
 # define LVL_DEPTH	8
